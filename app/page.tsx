@@ -91,13 +91,15 @@ export default function Home() {
             The name is <br />
             Benjoe Camingal
           </p>
-          <p className="hidden lg:block">I'm a fullstack web app developer</p>
+          <p className="hidden lg:block">
+            I&apos;m a fullstack web app developer
+          </p>
           <p className="hidden lg:block mr-auto">
             Almost 4 years of experience
           </p>
           <p className="hidden lg:block">Degree Holder</p>
           <ul className="lg:hidden list-disc list-inside space-y-2">
-            <li className="">I'm a fullstack web app developer</li>
+            <li className="">I&apos;m a fullstack web app developer</li>
             <li className=" mr-auto">Almost 4 years of experience</li>
             <li className="">Degree Holder</li>
           </ul>
@@ -249,7 +251,9 @@ export default function Home() {
           </div>
         </section>
         <section id="notesSection" className=" p-10 ">
-          <p className="font-arvo text-2xl font-bold mb-8">Developer's Note</p>
+          <p className="font-arvo text-2xl font-bold mb-8">
+            Developer&apos;s Note
+          </p>
           <div className="columns-1 gap-10 ">
             <div className=" border rounded-2xl p-5 mb-8 break-inside-avoid flex flex-col gap-y-1 font-delius">
               <p>Mark Benjoe B. Camingal</p>
