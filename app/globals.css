@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,15 +16,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.font-roboto {
+  font-family: var(--font-roboto);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.font-arvo {
+  font-family: var(--font-arvo);
+}
+
+.font-bitcount-single {
+  font-family: var(--font-bitcount-single);
+}
+
+.font-delius {
+  font-family: var(--font-delius);
 }
